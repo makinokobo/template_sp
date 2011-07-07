@@ -1,14 +1,50 @@
 @charset "utf-8";
 
 /*!
- * Common Styles
+ * Structure & Basic Styles
  * 
- * Prefix "cmn-"
  * 
  */
 
 
+/**
+ * Structure
+ */
 
-
-.cmn-STYLENAME {
+html, body {
+	/* メイン背景・文字色 */
 }
+
+
+body {
+}
+
+
+#document {
+}
+
+
+#header {
+}
+
+
+#contents {
+}
+
+
+#footer {
+}
+
+
+
+
+
+/**
+ * Basic Styles
+ */
+
+a {
+}
+
+
+

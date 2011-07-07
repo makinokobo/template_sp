@@ -6,4 +6,4 @@
 
 ## リンク
 
-ガイドライン https://github.com/makinokobo/mobile_template/wiki/Guidelines
+ガイドライン https://github.com/makinokobo/template_sp/wiki/Guidelines

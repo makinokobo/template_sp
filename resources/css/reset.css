@@ -27,7 +27,7 @@ object, iframe, form, fieldset, legend, label {
 }
 
 body {
-	font-size: 10px/1 sans-serif;
+	font: 10px/1 sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }

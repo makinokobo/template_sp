@@ -21,7 +21,6 @@ var config = {
 	loaderName: 'loader.js',
 	loadFiles: [
 		'jquery.js',
-		'mbp.js',
 		'jquery.PLUGINNAME.js',
 		'jquery.PLUGINNAME.js',
 		'main.js'
@@ -35,7 +34,7 @@ for(var i=0, n=scripts.length; i<n; i++){
 	if(scripts[i].src.match(config.loaderName)){
 		var scriptSrc = scripts[i].src;
 		var scriptDir = scriptSrc.substring(0,scriptSrc.lastIndexOf('/'+config.loaderName)+1);
-		
+
 		var loadScript = '';
 		for(var ii=0,nn=config.loadFiles.length; ii<nn; ii++){
 			loadScript += '<script src="'+scriptDir+config.loadFiles[ii]+'"></script>'+"\n";

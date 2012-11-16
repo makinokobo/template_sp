@@ -4,10 +4,6 @@
  */
 
 
-MBP.scaleFix();
-MBP.hideUrlBar();
-
-
 (function($){
 
 

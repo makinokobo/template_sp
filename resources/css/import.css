@@ -2,8 +2,8 @@
 
 /*!
  * CSS Module Import
- * 
- * 
+ *
+ *
  */
 
 
@@ -16,6 +16,6 @@
 @import "base.css";
 
 @import "common.css";
-@import "parts.css";
+@import "module.css";
 
 @import "script.css";
